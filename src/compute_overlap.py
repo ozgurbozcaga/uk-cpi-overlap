@@ -64,7 +64,7 @@ def compute_annual_overlap(
         # By CPS scope
         scope_totals = (
             df_classified.groupby("cps_scope")[col]
-            .sum(skipna=True)
+            .sum()
         )
 
         cps_covered  = scope_totals.get(CPS_COVERED, 0.0)
