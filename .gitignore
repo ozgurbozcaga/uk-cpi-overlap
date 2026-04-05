@@ -1,0 +1,25 @@
+# Raw data — never commit source files to version control
+data/raw/
+
+# Outputs — generated files, re-runnable from pipeline
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
